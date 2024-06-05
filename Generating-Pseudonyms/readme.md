@@ -1,0 +1,9 @@
+> In this warm-up project, you’ll write a simple Python program that generates nutty names by randomly combining first names and surnames. With any luck, you’ll produce a plethora of aliases that would make any 2 Chapter 1 sidekick proud. You’ll also review best-practice coding guidelines and apply external programs that will help you write code that conforms to those guidelines. Psych not your thing? Replace the names in my list in the code with your own jokes or theme. You could just as easily turn this project into a Game of Thrones name generator, or perhaps you want to discover your very own “Benedict Cumberbatch” name; my favorite is Bendylick Cricketbat.
+
+## The Objective
+
+Randomly generate funny sidekick names using Python code that conforms to established style guidelines.
+
+## The Strategy
+
+You’ll start with two lists—first and last—of funny names. The lists will be relatively short, so they won’t be memory intensive, won’t need to be dynam- ically updated, and shouldn’t present any runtime issues. Since all you’ll need to do is read names from the list, you’ll use a tuple as a container. With your two tuples of names, you’ll generate new names—pairing a first name with a last—at the touch of a button. That way, the user can eas- ily repeat the process until a sufficiently funny name appears. You should also highlight the name in the interpreter window some- how so it stands out from the command prompts. The IDLE shell doesn’t provide many font options, but you probably know—all too well—that errors appear in red. The default for the print() function is the standard output, but with the sys module loaded, you can redirect the output to the error channel, with its trademark red coloring, using the file parameter: print(something, file=sys.stderr). Finally, you’ll determine what style recommendations exist for Python programming. These guidelines should address not only the code but also documentation embedded within the code.
